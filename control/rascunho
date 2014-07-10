@@ -1,0 +1,3 @@
+
+   $consulta=  htmlentities($_POST["pesquisar"]);
+$listar=$pesquisa->listNome($consulta);
